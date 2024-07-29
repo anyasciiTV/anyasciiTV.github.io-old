@@ -7,13 +7,15 @@ baseurl: ""
 url: "https://anyasciiTV.github.io" 
 theme: hacker
 markdown: kramdown
+remote_theme: pages-themes/hacker@v0.2.0
 
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-remote-theme
+  #- jekyll-feed
+  #- jekyll-seo-tag
 
 # Additional optional configurations
-permalink: pretty
+#permalink: pretty
 
 # Creator information
 
@@ -23,18 +25,9 @@ author:
 
 # Social media links
 
-social:
-  github: anyasciiTV
-  twitch: twitch.tv/anyascii
-  youtube: youtube.com/@anyascii
-  twitter: twitter.com/4NY4SCII
-
-# Customing settings for the Hacker theme
-
-  logo: 
-  footer_text: "@ 2024 anyascii. All rights reserved."
-
-  # Permalinks 
-
-  permalink: /:categories/:title
+#social:
+  #github: anyasciiTV
+  #twitch: twitch.tv/anyascii
+  #youtube: youtube.com/@anyascii
+  #twitter: twitter.com/4NY4SCII
 
