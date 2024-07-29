@@ -1,0 +1,14 @@
+title: Anya's Blog
+email: anyascii@gmail.com
+description: >
+  Welcome to my blog!
+baseurl: "blog" 
+url: "https://username.github.io" # the base hostname & protocol for your site
+theme: minima
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+# Additional optional configurations
+permalink: pretty
