@@ -2,8 +2,8 @@ title: Anya's Blog
 email: anyascii@gmail.com
 description: >
   Welcome to my blog!
-baseurl: "blog" 
-url: "https://username.github.io" # the base hostname & protocol for your site
+baseurl: "" 
+url: "https://anyasciiTV.github.io" 
 theme: minima
 markdown: kramdown
 
