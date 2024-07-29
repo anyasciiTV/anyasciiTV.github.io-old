@@ -1,14 +1,40 @@
+# General configruation
+
 title: Anya's Blog
-email: anyascii@gmail.com
 description: >
   Welcome to my blog!
 baseurl: "" 
 url: "https://anyasciiTV.github.io" 
-theme: minima
+theme: hacker
 markdown: kramdown
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Additional optional configurations
 permalink: pretty
+
+# Creator information
+
+author:
+  name: Anya
+  email: anyascii@gmail.com
+
+# Social media links
+
+social:
+  github: anyasciiTV
+  twitch: twitch.tv/anyascii
+  youtube: youtube.com/@anyascii
+  twitter: twitter.com/4NY4SCII
+
+# Customing settings for the Hacker theme
+
+  logo: 
+  footer_text: "@ 2024 anyascii. All rights reserved."
+
+  # Permalinks 
+
+  permalink: /:categories/:title
+
