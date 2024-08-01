@@ -1,10 +1,11 @@
 # General configruation
 
-title: Anya's Blog
-description: >
-  Welcome to my blog!
+title: Anya's Command Line Chronicles
+description: > A place for all things tech
 baseurl: "" 
 url: "https://anyasciiTV.github.io" 
+logo: 'docs/assets/images/tux500.png'
+#favicon: 'assets/favicon.png'
 theme: hacker
 markdown: kramdown
 theme: jekyll-theme-hacker
@@ -14,6 +15,19 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - category
+    - tags
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
 
 # Additional optional configurations
 #permalink: pretty
@@ -22,6 +36,8 @@ plugins:
 
 author:
   name: Anya
+  display_name: anyascii
+  avatar: 'docs/assets/images/tux500.png'
   email: anyascii@gmail.com
 
 # Social media links
@@ -32,3 +48,5 @@ social:
   youtube: youtube.com/@anyascii
   twitter: twitter.com/4NY4SCII
 
+# Lazy images
+lazyimages: "enabled"
