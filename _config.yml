@@ -2,11 +2,15 @@
 
 title: Anya's Command Line Chronicles
 description: "A place for all things tech"
+author: 
+  name: Anya
+  email: anyascii@gmail.com
+  #url:
 baseurl: "" 
 url: "https://anyasciiTV.github.io" 
 logo: 'docs/assets/images/tux500.png'
 #favicon: 'assets/favicon.png'
-theme: hacker
+#theme: hacker
 markdown: kramdown
 theme: jekyll-theme-hacker
 remote_theme: pages-themes/hacker@v0.2.0
@@ -42,11 +46,11 @@ author:
 
 # Social media links
 
-social:
-  github: anyasciiTV
-  twitch: twitch.tv/anyascii
-  youtube: youtube.com/@anyascii
-  twitter: twitter.com/4NY4SCII
+#social:
+  #github: anyasciiTV
+  #twitch: twitch.tv/anyascii
+  #youtube: youtube.com/@anyascii
+  #twitter: twitter.com/4NY4SCII
 
 # Lazy images
 lazyimages: "enabled"
