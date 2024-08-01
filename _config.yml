@@ -10,7 +10,7 @@ baseurl: ""
 url: "https://anyasciiTV.github.io" 
 logo: 'docs/assets/images/tux500.png'
 #favicon: 'assets/favicon.png'
-#theme: hacker
+theme: hacker
 markdown: kramdown
 theme: jekyll-theme-hacker
 remote_theme: pages-themes/hacker@v0.2.0
@@ -38,11 +38,11 @@ jekyll-archives:
 
 # Creator information
 
-author:
-  name: Anya
-  display_name: anyascii
-  avatar: 'docs/assets/images/tux500.png'
-  email: anyascii@gmail.com
+#author:
+  #name: Anya
+  #display_name: anyascii
+  #avatar: 'docs/assets/images/tux500.png'
+  #email: anyascii@gmail.com
 
 # Social media links
 
@@ -53,4 +53,4 @@ author:
   #twitter: twitter.com/4NY4SCII
 
 # Lazy images
-lazyimages: "enabled"
+#lazyimages: "enabled"
