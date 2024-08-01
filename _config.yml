@@ -1,7 +1,8 @@
 # General configruation
 
 title: Anya's Command Line Chronicles
-description: > A place for all things tech
+description: 
+  > A place for all things tech
 baseurl: "" 
 url: "https://anyasciiTV.github.io" 
 logo: 'docs/assets/images/tux500.png'
